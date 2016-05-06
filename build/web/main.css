@@ -1,0 +1,136 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+	height: 100%;
+	background-color: #999999;
+}
+
+/*table {
+	border-collapse:collapse;
+	border-spacing: 10px;
+	margin: 10px;
+}*/
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/*
+/* General Style */
+body{
+	font: Garamond;
+	background-color: #999999;
+	font-weight: 400;
+	font-size: 15px;
+	color: #000000;
+	overflow-y: scroll;
+}
+.container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 20px 30px 10px 30px;
+	margin: 0px 10px 10px 10px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+    background: #003366; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#FFFFFF, #003366); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#FFFFFF, #003366); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FFFFFF, #003366); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFFFF, #003366); /* Standard syntax (must be last) */
+}
+.container > header h1{
+	
+	font: Garamond;
+	font-size: 34px;
+}
+.container > header h2{
+	font: Garamond;
+	font-size: 43px;
+}
+.container > header h3{
+	font: Garamond;
+	font-size: 67px;
+}
+#tabs{
+	margin: 10px;
+	font: Helvetica;
+	font-size: 17px;
+}
+.demParty,.repParty,.otherParty{
+	padding: 10px;
+	margin: 0px 10px 10px 10px;
+	background: #000000;
+	font: Garamond;
+	font-size: 34px;
+	color: #FFFFFF;
+}
+#demList > table{
+	margin: 10px;
+	padding: 10px;
+}
+#repList > table{
+	margin: 10px;
+	padding: 10px;
+}
+#otherList > table{
+	margin: 10px;
+	padding: 10px;
+}
+#stance > table, td{
+	margin: 10px;
+	padding: 10px;
+	border: 2px black;
+}
+#issues > ul{
+	background: #FFFFFF;
+	text-align: left;
+	margin: 10px;
+	padding: 10px;
+	font-size: 34px;
+	font: Garamond;
+	color: #008CFF;
+	columns: 2;
+}
+#active > li{
+	background-color: #008CFF;
+	color: #FFFFFF;
+}
+#nonactive > li{
+	background-color: #FFFFFF;
+	color: #008CFF;
+}
